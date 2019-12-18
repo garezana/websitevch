@@ -1,7 +1,5 @@
-
-  
  /* Styles font face global: importing Open Sans */
-  @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
+ @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
   
   html,body{
      overflow: hidden; 
@@ -35,73 +33,34 @@ font-size: .9em;
   }
 
 /* Styles the top navbar */
-#navbar {
+.navbar {
   display: flex;
   background-color:  rgb(150, 146, 146);
 }
 
 /* Styles the navbar hyperlinks on left*/
-#navbar a {
+.navbar a {
   color: white;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
 }
 
-#home {
-  color: white;
-  padding: 14px 0 ;
-  text-align: center;
+/* Styles the navbar: changes color on hover */
+.navbar a:hover {
+  color: skyblue;
+  /*background-color :rgb(130, 126, 126) */
 }
 
-#insight {
-  color: white;
-  padding: 14px 0 ;
-  text-align: center;
-}
-
-/* Styles the navbar about hyperlink to the right */
-#leanrnshare {
-  color: white;
-  padding: 14px 0 ;
-  text-align: center;
-}
-
-#research {
-  color: white;
-  padding: 14px 0 ;
-  text-align: center;
-}
-
-#right {
+.right {
   color: white;
   padding: 14px 0 ;
   text-align: center;
   margin-left: auto;
 }
 
-/* Styles the navbar: changes color on hover */
-#navbar #home a:hover {
-  color: skyblue;
-  /*background-color :rgb(130, 126, 126) */
-}
 
-#navbar #insight a:hover {
-  color: skyblue;
-  /*background-color :rgb(130, 126, 126) */
-}
-
-#navbar #leanrnshare a:hover {
-  color: skyblue;
-  /*background-color :rgb(130, 126, 126) */
-}
-
-#navbar #research a:hover {
-  color: skyblue;
-  /*background-color :rgb(130, 126, 126) */
-}
-
-#navbar #right a:hover {
+.right a:hover {
   color: skyblue;
   /*background-color :rgb(130, 126, 126) */
 }
