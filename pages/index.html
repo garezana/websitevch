@@ -2,25 +2,26 @@
     <html>
                            
         <head>
+            <link rel="import" href="imports.html">
             <title>Garezana</title>
-            <link href="../style/style.css" rel="stylesheet">
-            <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         </head>
 
         <body>
-                 <!-- Header  -->
-                <div class="header">
-                     <h1>Garezana</h1>
-                </div>
+            <!-- Header -->
+            <div class="header">
+                    <h1>Garezana</h1>
+            </div>
 
-<div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="insight.html">Insight</a>
-    <a href="learnandshare.html">Learning and Sharing</a>
-    <a href="research.html">Research</a>
-    <div class="right"><a href="about.html">About</a></div>
-</div>
-           
+            <!-- Navbar empty container -->
+            <div id="nav-placeholder">
+            </div>
+
+            <!-- Navbar code -->
+                <script>
+                    $(document).ready(function () {
+                    $("#nav-placeholder").load("nav.html");
+                    });
+                </script>
             <div class="main">
                 <h1>HELLO WORLD! </h1>
                 <p> Dear reader,</p>

@@ -1,0 +1,98 @@
+ /* Styles font face global: importing Open Sans */
+ @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
+  
+  html,body{
+     overflow: hidden; 
+     margin:0;
+     padding:0;
+     height:100%;
+    font-family: 'Open Sans';
+  }
+
+  /* Styles hyperlink globally: removes underscore */
+  a:link {
+    text-decoration: none ;
+  }
+  .btn{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+font-size: .9em;
+}
+  ul
+{
+    list-style-type: none;
+}
+
+  /* Styles header into bottom to top*/
+  .header {
+    padding: 65px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(0deg, rgb(150, 146, 146), skyblue);
+  }
+
+/* Styles the top navbar */
+#navbar {
+  display: flex;
+  background-color:   rgb(150, 146, 146);
+}
+
+/* Styles the navbar hyperlinks on left*/
+#navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Styles the navbar: changes color on hover */
+#navbar a:hover {
+  color: skyblue;
+  /*background-color :rgb(130, 126, 126) */
+}
+
+#right {
+  color: white;
+  padding: 14px 0 ;
+  text-align: center;
+  margin-left: auto;
+}
+
+
+#right a:hover {
+  color: skyblue;
+  /*background-color :rgb(130, 126, 126) */
+}
+
+/* Styles main section*/
+.main{
+    margin:60px;
+    width: 50px auto;
+    flex: 70%; 
+    background-color: white;
+    /* padding: 10px; */
+    text-align: justify; 
+    text-justify: inter-character;
+
+}
+/* Styles event: editrs google calendar placement */
+.calendar {
+  margin: 100px auto;
+  width: 800px;
+}
+
+/*Styles footer */
+.footer {
+  bottom:0;
+  width: 100%;
+  height:60px;
+  font-size: small;
+  /* padding: 20px; */
+  text-align: center;
+  background:  rgb(150, 146, 146);
+  height:50px; 
+ 
+  position:absolute;
+  /* bottom:0px; */
+}
